@@ -1,1 +1,22 @@
 .DS_Store
+
+# Ignore bundler config.
+backend-rails/.bundle
+
+# Ignore all logfiles and tempfiles.
+backend-rails/log/*
+backend-rails/tmp/*
+!backend-rails/log/.keep
+!backend-rails/tmp/.keep
+
+# Ignore uploaded files in development
+backend-rails/storage/*
+!backend-rails/storage/.keep
+
+backend-rails/.byebug_history
+
+# Ignore master key for decrypting credentials and more.
+backend-rails/config/master.key
+backend-rails/config/database.yml
+
+backend-rails/public/uploads
