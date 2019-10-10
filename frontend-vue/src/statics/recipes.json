@@ -1,0 +1,160 @@
+{
+  "recipes":[
+    {
+      "id": 1001,
+      "title": "Low calorie pasta",
+      "author": "Alex L. Tesevich",
+      "description": "A month of low calories pasta recipe",
+      "image": "statics/images/a-month-of-low-calorie-pasta-recipes-134294-2.jpg",
+      "rating": 1,
+      "steps": [
+        {
+          "id": 1,
+          "description": "Step 1 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 2,
+          "description": "Step 2 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 3,
+          "description": "Step 3 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "title": "Zucchini spagetti with bolognese",
+      "author": "Alex L. Tesevich",
+      "description": "Zucchini spagetti with bolognese recipe",
+      "image": "statics/images/zucchini-spaghetti-with-bolognese-101168-2.jpg",
+      "rating": 1,
+      "steps": [
+        {
+          "id": 1,
+          "description": "Step 1 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 2,
+          "description": "Step 2 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 3,
+          "description": "Step 3 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 4,
+          "description": "Step 4 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "title": "Teriyaki beef and broccoli",
+      "author": "Alex L. Tesevich",
+      "description": "Teriyaki beef and broccoli recipe",
+      "image": "statics/images/teriyaki-beef-and-broccoli-4b797466.jpg",
+      "rating": 1,
+      "steps": [
+        {
+          "id": 1,
+          "description": "Step 1 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 2,
+          "description": "Step 2 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 3,
+          "description": "Step 3 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 4,
+          "description": "Step 4 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 5,
+          "description": "Step 5 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ]
+    },
+    {
+      "id": 1004,
+      "title": "Steak bites",
+      "author": "Alex L. Tesevich",
+      "description": "Steak bites recipe",
+      "image": "statics/images/steak-bites-3.jpg",
+      "rating": 1,
+      "steps": [
+        {
+          "id": 1,
+          "description": "Step 1 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 2,
+          "description": "Step 2 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 3,
+          "description": "Step 3 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ]
+    },
+    {
+      "id": 1005,
+      "title": "Old fashioned soup",
+      "author": "Alex L. Tesevich",
+      "description": "Old fashioned soup recipe",
+      "image": "statics/images/Old-Fashioned-Soup.jpg",
+      "rating": 1,
+      "steps": [
+        {
+          "id": 1,
+          "description": "Step 1 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 2,
+          "description": "Step 2 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 3,
+          "description": "Step 3 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 4,
+          "description": "Step 4 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ]
+    },
+    {
+      "id": 1006,
+      "title": "Garlic butter creamed corn chicken",
+      "author": "Alex L. Tesevich",
+      "description": "Garlic butter creamed corn chicken recipe",
+      "image": "statics/images/Garlic-Butter-Creamed-Corn-Chicken-1-700x1050.jpg",
+      "rating": 1,
+      "steps": [
+        {
+          "id": 1,
+          "description": "Step 1 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 2,
+          "description": "Step 2 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 3,
+          "description": "Step 3 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 4,
+          "description": "Step 4 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        },
+        {
+          "id": 5,
+          "description": "Step 5 - Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        }
+      ]
+    }
+  ]
+}
