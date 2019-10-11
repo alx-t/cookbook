@@ -14,6 +14,9 @@ services:
     image: cookbook-dev:1.0.0
     tmpfs:
       - /tmp
+    environment:
+      - MINIO_ACCESS_KEY=CGM8V3W27U6TCX2ZPJU2
+      - MINIO_SECRET_KEY=2824R7fABsk2yRbPNIkbFPVajw9OTG3CjJktcHju
 
   backend: &backend
     <<: *app
@@ -40,6 +43,7 @@ services:
     depends_on:
       - postgres
       - redis
+      - s3
 
   runner:
     <<: *backend
@@ -75,6 +79,15 @@ services:
       - redis:/data
     ports:
       - 6379
+
+  s3:
+    <<: *app
+    image: minio/minio
+    ports:
+      - 9000
+    volumes:
+      - ./storage/minio:/data
+    command: server /data
 
   webpacker:
     <<: *app
