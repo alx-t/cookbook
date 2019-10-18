@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2019_10_10_144239) do
     t.bigint "recipe_id", null: false
     t.string "title"
     t.text "description"
-    t.string "image"
+    t.text "image_data"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["recipe_id"], name: "index_recipe_steps_on_recipe_id"
@@ -28,7 +28,7 @@ ActiveRecord::Schema.define(version: 2019_10_10_144239) do
   create_table "recipes", force: :cascade do |t|
     t.string "title"
     t.text "description"
-    t.string "image"
+    t.text "image_data"
     t.integer "rating"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

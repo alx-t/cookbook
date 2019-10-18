@@ -4,7 +4,7 @@ class CreateRecipeSteps < ActiveRecord::Migration[6.0]
       t.references :recipe, null: false, foreign_key: true
       t.string :title
       t.text :description
-      t.string :image
+      t.text :image_data
 
       t.timestamps
     end
