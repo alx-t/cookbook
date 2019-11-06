@@ -1,0 +1,12 @@
+.card {
+  width: 400;
+}
+
+.media {
+  height: 0;
+  top: '56.25%';
+}
+
+.actions: {
+  display: 'flex';
+}

@@ -55,11 +55,14 @@ services:
   rails:
     <<: *backend
     command: bundle exec rails server -b 0.0.0.0
+    depends_on:
+      - sidekiq
     ports:
       - '8000:3000'
 
   sidekiq:
     <<: *backend
+    # command: bundle exec sidekiq -q mailers -q default
     command: bundle exec sidekiq -C config/sidekiq.yml
 
   postgres:

@@ -54,6 +54,9 @@ interaction:
     service: redis
     command: redis-cli -h redis
 
+  sidekiq:
+    service: sidekiq
+
 provision:
   - dip compose down --volumes
   - dip compose up -d postgres redis

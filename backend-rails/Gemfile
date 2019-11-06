@@ -37,5 +37,8 @@ end
 gem 'active_model_serializers'
 
 # Shrine
+gem 'image_processing'
 gem 'ruby-vips'
 gem 'shrine'
+gem 'aws-sdk-s3'
+gem 'fastimage'
