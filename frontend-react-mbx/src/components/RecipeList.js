@@ -4,7 +4,7 @@ import { inject, observer } from 'mobx-react';
 
 import views from '../views';
 
-import { makeStyles } from '@material-ui/core/styles'
+import { makeStyles } from '@material-ui/core/styles';
 import {
   Grid,
   Card,
@@ -18,7 +18,7 @@ import {
   Button,
   // ButtonBase
   Link
-} from '@material-ui/core/'
+} from '@material-ui/core';
 import FavoriteIcon from '@material-ui/icons/Favorite';
 
 const useStyles = makeStyles(theme => ({
