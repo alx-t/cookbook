@@ -49,6 +49,7 @@ ReactDOM.render(
         <Route path="/login" component={Login} />
         <Route path="/signup" component={Signup} />
         <Route path="/widgets" component={Widgets} />
+        <Route path="/recipes" component={Widgets} />
       </Route>
     </Router>
   </Provider>,
