@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react'
+// import React, { PropTypes } from 'react'
+import React from 'react'
 import logo from './logo.svg'
 import './App.css'
 
